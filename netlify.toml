@@ -2,7 +2,7 @@
   # Comando para construir seu aplicativo React
   command = "npm run build"
   # Diretório onde os arquivos estáticos são gerados (padrão para Create React App)
-  publish = "build"
+  publish = "public"
 
 # Redirecionamento para Single Page Applications (SPAs) com React Router
 [[redirects]]
