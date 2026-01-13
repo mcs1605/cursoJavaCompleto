@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CheckCircle2, Circle, Code, Rocket, Star, Award, Book, ChevronDown, ChevronUp, BookOpen } from 'lucide-react';
+import { CheckCircle2, Circle, /*Code, Rocket, Star, Award, Book,*/ ChevronDown, ChevronUp, BookOpen } from 'lucide-react';
 
 const JavaCourse = () => {
     const [completedProjects, setCompletedProjects] = useState(() => {
@@ -7,7 +7,7 @@ const JavaCourse = () => {
         return saved ? new Set(JSON.parse(saved)) : new Set();
     });
   
-    const [expandedModule, setExpandedModule] = useState(0);
+    //const [expandedModule, setExpandedModule] = useState(0);
     const [expandedProject, setExpandedProject] = useState(null);
 
     useEffect(() => {
