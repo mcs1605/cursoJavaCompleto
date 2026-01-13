@@ -1,7 +1,11 @@
 [build]
-base = "."
-command = "npm run build"
-publish = "./build/"
+  # Comando para construir seu aplicativo React
+  command = "npm run build"
+  # Diretório onde os arquivos estáticos são gerados (padrão para Create React App)
+  publish = "build"
 
-[build.enviroment]
-REACT_APP_API_URL = "https://https://fastidious-horse-fdc524.netlify.app"
+# Redirecionamento para Single Page Applications (SPAs) com React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.js"
+  status = 200
