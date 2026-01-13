@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cursoJavaCompleto/static/css/main.6bb6fa22.css",
+    "main.js": "/cursoJavaCompleto/static/js/main.fcfda2c4.js",
+    "static/js/453.b0a9de23.chunk.js": "/cursoJavaCompleto/static/js/453.b0a9de23.chunk.js",
+    "index.html": "/cursoJavaCompleto/index.html",
+    "main.6bb6fa22.css.map": "/cursoJavaCompleto/static/css/main.6bb6fa22.css.map",
+    "main.fcfda2c4.js.map": "/cursoJavaCompleto/static/js/main.fcfda2c4.js.map",
+    "453.b0a9de23.chunk.js.map": "/cursoJavaCompleto/static/js/453.b0a9de23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb6fa22.css",
+    "static/js/main.fcfda2c4.js"
+  ]
+}
